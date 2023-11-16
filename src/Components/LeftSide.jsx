@@ -1,9 +1,16 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom';
 
 function LeftSide() {
     return (
         <div>
-            Left
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <Outlet/>
         </div>
     )
 }
